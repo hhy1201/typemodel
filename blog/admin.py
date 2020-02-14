@@ -6,11 +6,18 @@ from .adminforms import PostAdminForm
 from .models import Post, Category, Tag
 
 
+class PostInline(admin.TabularInline):
+    fields = ('title', 'desc')
+    extra = 1
+    model = Post
+
+
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):
     list_display = ('name', 'is_nav', 'created_time', 'post_count')
     fields = ('name', 'status', 'is_nav')
 
+    inlines = [PostInline,]
     def save_model(self, request, obj, form, change):
         obj.owner = request.user
         return super(CategoryAdmin, self).save_model(request, obj, form, change)
@@ -118,3 +125,5 @@ class PostAdmin(admin.ModelAdmin):
     #     js = ("https://cdn.bootcss.com/twitter-bootstrap/4.0.0-beta.2/js/bootstrap.bundle.js")
 
     form = PostAdminForm
+
+
