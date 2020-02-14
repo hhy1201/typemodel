@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a0cd7b1-30a9-4dff-a9a2-1abd3b1fd50f" name="Default Changelist" comment="" />
+    <list default="true" id="8a0cd7b1-30a9-4dff-a9a2-1abd3b1fd50f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/adminforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comment/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comment/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/admin.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +22,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1XhiYEdJXBKOI1KV99OnSO7uR9k" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,14 +62,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="252" y="55" key="#Notifications" timestamp="1581514513166">
+    <state x="252" y="55" key="#Notifications" timestamp="1581644148452">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
-    <state x="252" y="55" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1581514513166" />
+    <state x="252" y="55" key="#Notifications/0.0.1500.960@0.0.1500.960" timestamp="1581644148452" />
     <state x="215" y="91" width="1138" height="869" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581508507726">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="215" y="91" width="1138" height="869" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1500.960@0.0.1500.960" timestamp="1581508507726" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1581654591649">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1500.960@0.0.1500.960" timestamp="1581654591649" />
     <state x="459" y="231" key="EnvironmentVariablesDialog" timestamp="1581508488781">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
@@ -83,6 +94,14 @@
       <screen x="0" y="0" width="1500" height="960" />
     </state>
     <state x="252" y="148" key="Vcs.Push.Dialog.v2/0.0.1500.960@0.0.1500.960" timestamp="1581514396983" />
+    <state x="351" y="262" key="com.intellij.ide.util.TipDialog" timestamp="1581644143289">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="351" y="262" key="com.intellij.ide.util.TipDialog/0.0.1500.960@0.0.1500.960" timestamp="1581644143289" />
+    <state x="493" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1581654599000">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="493" y="377" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1500.960@0.0.1500.960" timestamp="1581654599000" />
     <state x="337" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1581512006887">
       <screen x="0" y="0" width="1500" height="960" />
     </state>
